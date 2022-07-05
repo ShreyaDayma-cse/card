@@ -1,34 +1,32 @@
 *{  
-    padding: 0;  
-    margin: 0;  
+    padding:10px;  
+    margin: 5px;  
     box-sizing: border-box;  
     -webkit-font-smoothing: antialiased;  
     background-color: rgb(27, 24, 24);
     color:aliceblue;
   }  
-  header{  
-    background-color: black;  
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 73% 94%, 0 100%);  
-  }  
-  header nav .left a{  
-    color: aliceblue;  
-    text-decoration: none;  
-    margin-right: 2rem;  
-    text-transform: uppercase;  
-    transition: all .2s ease;  
-  }  
-  header nav .left a:hover{  
-    color: var(--primary);  
-  }  
-  header nav {  
-    padding: 2rem 0;  
-  }  
-  header nav .logo{  
-    margin-right: 3rem;  
-  }  
   
   body{  
     font-family: 'Poppins', sans-serif;  
+    margin:5px;
+    padding:10px;
+  }
+  .heading{
+    margin:30px;
+    padding:60px;
+  } 
+ a{  
+    color: aliceblue;  
+    text-decoration: none;  
+    margin-right: 2rem;   
+    transition: all .2s ease;  
+  }  
+  .hero .right h2,u{  
+    font-size: 50px;  
+    color: rgb(91, 220, 179);  
+    margin-bottom: 0.5rem;
+    text-align:center;  
   }  
   .container{  
     max-width: 1152px;  
@@ -46,35 +44,54 @@
     color: var(--white);  
     margin-top: -9rem;  
   }  
-  .hero .right h2{  
-    font-size: 50px;  
-    color: rgb(91, 220, 179);  
+  .hero .right h4{  
+    font-size: 30px;  
+    color: rgb(92, 220, 180);  
     margin-bottom: 0.5rem;
-    text-align:center;  
+    text-align:right;  
   }  
-  .hero .right h1{  
+  .hero .right h2,u{  
     font-size: 4rem;  
     font-weight: 100;  
     line-height: 1.2;  
     margin-bottom: 2rem;  
     color: rgb(91, 220, 179); 
-    text-align:center;  
+    text-align:right;  
   }  
+  .hero .left {  
+    color: var(--white);  
+    margin-top: -9rem;  
+  }  
+  .hero .left h4{  
+    font-size: 30px;  
+    color: rgb(92, 220, 180);  
+    margin-bottom: 0.5rem;
+    text-align:left;  
+  }  
+  .hero .left h2,u{  
+    font-size: 4rem;  
+    font-weight: 100;  
+    line-height: 1.2;  
+    margin-bottom: 2rem;  
+    color: rgb(91, 220, 179); 
+    text-align:left;  
+  } 
   .hero .right h1 span{  
     color: rgb(91, 220, 179);  
   }  
   .hero .right p{  
     line-height: 1.9;  
     margin-bottom: 2rem;  
+    margin:20px;
     padding:5px;
   }  
   .flex{  
     display: flex;  
   }  
   .items-centre{  
-    align-items: center;  
+    align-items:center;  
   }  
-  .justify-between{  
+  .justify-between,ol{  
     justify-content: space-between;  
   }  
   .justify-center{  
@@ -85,10 +102,13 @@
   .justify-right{  
     justify-content: right; 
     padding:10px;
-    margin:auto; 
+    margin:20px;
   }
   img{
-    border-radius: 20px;;
+    border-radius: 20px;
+    width:600px;
+    height: 300px;
+
   }  
   .btn{  
     padding: 0.6rem 2rem;  
@@ -99,6 +119,7 @@
     cursor: pointer;  
     text-transform: uppercase;  
     transition: all .2s ease;  
+    align-self: center;
   }  
   .btn-primary{  
     background-color: rgb(91, 220, 179);  
@@ -112,14 +133,4 @@
     color: rgb(91, 220, 179);  
   }  
   .flex-1{  
-    flex: 1;  
-  }  
-  .btn-secondary{  
-    background: transparent;  
-    color: rgb(91, 220, 179);  
-    border-color: rgb(91, 220, 179);  
-  }  
-  .btn-secondary:hover{  
-    background: var(--primary);  
-    color: var(--secondary);  
-  }  
+    flex: 1;  }
