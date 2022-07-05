@@ -1,0 +1,44 @@
+.header{
+    color: white; 
+    font-size:60px;
+  }
+  body{
+    background-color:black;
+    background-image:url('https://media.istockphoto.com/videos/employee-man-hard-working-with-laptop-to-late-night-at-office-people-video-id1030800042?s=640x640');
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: contain;
+    color:white;
+    text-align:center;
+    font-weight:bold;
+  }
+  table,tr{
+    color:white;
+    border-collapse:collapse;
+    text-align:left;
+    padding:20px;
+    margin:20px;  
+    border-bottom: 1px solid grey; 
+  }
+  td{
+    text-align:left;
+    padding:20px;
+    margin:20px;
+    font-size:15px;
+    border-bottom: 1px solid #ddd;
+  }
+  img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  #test{
+    font-size:50px;
+  }
+  .heading{
+    font-size: 30px;
+  }
+  #test1{
+    font-size:15px;
+  }

@@ -1,44 +1,40 @@
-.header{
-    color: white; 
-    font-size:60px;
-  }
-  body{
-    background-color:black;
-    background-image:url('https://media.istockphoto.com/videos/employee-man-hard-working-with-laptop-to-late-night-at-office-people-video-id1030800042?s=640x640');
-    background-repeat:no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: contain;
+#first{
+    font-size:30px;
     color:white;
-    text-align:center;
-    font-weight:bold;
+    background-color: rgb(84, 179, 163);
+    border-right: 5px solid white;
+    border-radius:20px 20px 0px 0px;
+    padding:10px;
   }
-  table,tr{
+  #second{
+    font-size:30px;
+    color:white;
+    background-color:rgb(120, 109, 189);
+    border-right: 5px solid white;
+    border-radius:20px 20px 0px 0px;
+    padding:10px;
+  }
+  table,tr,td{
     color:white;
     border-collapse:collapse;
-    text-align:left;
-    padding:20px;
+    text-align:center;
+    padding:40px;
     margin:20px;  
+    border-right: 5px solid white;  
     border-bottom: 1px solid grey; 
   }
-  td{
-    text-align:left;
-    padding:20px;
-    margin:20px;
-    font-size:15px;
-    border-bottom: 1px solid #ddd;
+    tr,td{
+      background-color:black;
   }
-  img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
+  th{
+    shadow: 50px 50px 50px grey;
   }
   #test{
-    font-size:50px;
-  }
-  .heading{
-    font-size: 30px;
+    color:white;
+    font-size:30px;
+    font-family: "serif";
   }
   #test1{
-    font-size:15px;
+    color:grey;
+    font-size:20px;
   }
